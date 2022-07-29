@@ -1,0 +1,10 @@
+const userDetailsConstants = {
+	FULLNAME: "FULLNAME",
+	DISPLAY_NAME: "DISPLAY_NAME",
+	WORKSPACE_NAME: "WORKSPACE_NAME",
+	WORKSPACE_URL: "WORKSPACE_URL",
+	WORKSPACE_TYPE: "WORKSPACE_TYPE",
+	STEP: "STEP",
+};
+
+export { userDetailsConstants };

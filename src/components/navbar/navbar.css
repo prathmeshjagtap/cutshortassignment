@@ -1,0 +1,13 @@
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+nav img {
+	width: 45px;
+}
+.website__name {
+	font-weight: bolder;
+	font-size: 2rem;
+}

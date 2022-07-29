@@ -1,0 +1,76 @@
+:root {
+	--light-background: #ced4da;
+	--grey-color: #adb5bd;
+	--primary-color: #5851d3;
+}
+
+.App {
+	text-align: center;
+	padding: 1rem;
+	margin: 1rem;
+}
+
+h2 {
+	margin: 10px;
+}
+
+form {
+	padding: 1rem;
+	margin: auto;
+}
+
+form div {
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+
+.form__Container {
+	margin: auto;
+	max-width: 450px;
+}
+
+form label {
+	text-align: left;
+	font-weight: 500;
+}
+
+form input {
+	padding: 10px;
+	border: 1px solid var(--light-background);
+	border-radius: 5px;
+	margin: 10px 0;
+}
+
+button {
+	background-color: var(--primary-color);
+	border: none;
+	padding: 1rem;
+	color: #fff;
+	width: 100%;
+	border-radius: 8px;
+	font-size: 1rem;
+}
+
+h1 {
+	font-size: 1.8rem;
+	margin: 10px;
+}
+
+p {
+	margin: 0;
+}
+
+.grey__text {
+	color: var(--grey-color);
+	font-weight: 500;
+	margin-bottom: 10px;
+}
+
+.icon {
+	background-color: var(--primary-color);
+	border-radius: 50%;
+	color: #fff;
+	font-size: 1.5rem;
+	padding: 1rem;
+}
